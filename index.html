@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" href="favicon.webp" />
+	<!-- <title>Верстка «BTM_Web_Site»</title> -->
+	<title>Верстка «BTM_Web_Site»</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- <picture class="background-image"
+				><source srcset="img/main_compressed.webp" type="image/webp" />
+				<img data-lp src="img/main_compressed.webp" alt="MainLogo"
+			/></picture> -->
+
+		<div class="rootpage">
+			<!-- <h1>Верстка «BTM_Web_Site»</h1> -->
+			<h1>Верстка «BTM_Web_Site»</h1>
+			<p class="rootpage__title">
+				Багатосторінковий сайт консалтінго-правового підприємства
+			</p>
+			<div class="rootpage__info">
+				<div class="rootpage__block">
+					<h2>Готові сторінки:</h2>
+					<ol class="rootpage__list">
+						<li><a target="_blank" href="home.html">Головна</a></li>
+						<li><a target="_blank" href="#">blank</a></li>
+						<li><a target="_blank" href="#">blank</a></li>
+					</ol>
+					<h2>Попапи:</h2>
+					<ol class="rootpage__list">
+						<li><a target="_blank" href="#"></a></li>
+					</ol>
+				</div>
+				<div class="rootpage__block">
+					<h2>До уваги замовника</h2>
+					<div class="rootpage__title-customer">
+						Веб-сторінки з якими необхідно ознайомитись:
+					</div>
+					<ol class="rootpage__list">
+						<li>
+							<a target="_blank" href="https://emigration-lawyer.com/"><span>Emigration Lawyer</span> - приклад сучасного сайта</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://preview.themeforest.net/item/counsel-law-firm-html/full_screen_preview/31701866?clickid=whyzb2wA5xyIT5d3-OWM4RvKUkGxJGzBF3CTWA0&iradid=275988&iradtype=ONLINE_TRACKING_LINK&irgwc=1&irmptype=mediapartner&irpid=1223214&mp_value1=&utm_campaign=af_impact_radius_1223214&utm_medium=affiliate&utm_source=impact_radius/"><span>Шаблон</span> - готовий сучасний сайт</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://pravovyilider.com.ua/"><span>Правовий Лідер</span> - невдало наповнений сайт</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://status-legservice.com.ua/"><span>StatusKo</span> - змістовний сайт з мінімалістичним
+								дизайном</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://migrate.com.ua/"><span>Bachynskyy&part</span> - Норм сайт з трохи застарілим
+								дизайном</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="rootpage__info">
+				<div class="rootpage__contacts">
+					<h3>Мої контакти:</h3>
+					<div class="rootpage__contact">
+						<img src="img/icons/mail2.svg" alt="tel" width="1.25rem" height="1.25rem" />
+						<a href="mailto:valerytor72@gmail.com" target="_blank">valerytor72@gmail.com</a>
+					</div>
+					<div class="rootpage__contact">
+						<img src="img/icons/whatsapp.svg" alt="tel" width="1.25rem" height="1.25rem" />
+
+						<a href="https://wa.me/380960022591?text=Валерий" class="btn btn-success">WhatsApp +380960022591</a>
+					</div>
+				</div>
+				<div class="rootpage__contacts">
+					<h3>Дякую за замовлення!</h3>
+					<p>Буду радий гарному відгуку</p>
+					<p>Звертайтесь ще!</p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__copy-right">&copy;&nbsp;2024</div>
+		</footer>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap');
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		/* background-color: #5e5373; */
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #fff;
+		/* color: #ebe691; */
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #b7b7b7;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	ol li {
+		list-style-position: inside;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+		background: url('img/main_compressed.webp') 100% 100% / cover no-repeat;
+
+	}
+
+	@media (max-width: 616px) {
+		.wrapper {
+			background-position: 80% 100%;
+		}
+	}
+
+	.wrapper::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 36, 0.6);
+	}
+
+	.rootpage {
+		padding: 2rem;
+		flex: 1 1 auto;
+		z-index: 2;
+		margin: 0 auto;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 2rem 1rem;
+			margin: 0;
+		}
+	}
+
+	h1 {
+		color: #00ff00;
+		text-shadow:
+			0 0 2px #000,
+			0 0 2px #000,
+			0 0 2px #000,
+			0 0 2px #000;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		margin: 1rem 0px 0.5rem 0px;
+	}
+
+	h3 {
+		font-size: 1.125rem;
+		margin: 0px 0px 0.5rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+		}
+
+		h3 {
+			font-size: 1rem;
+			margin: 0px 0px 0.5rem 0px;
+		}
+	}
+
+	li span {
+		color: #00ff00;
+	}
+
+	.rootpage__info {
+		display: grid;
+		grid-template-columns: 23.75rem 1fr;
+		/* 380/16 */
+		gap: 1.875rem;
+		/* 30/16 */
+		justify-items: start;
+	}
+
+	.rootpage__info:not(:last-child) {
+		margin: 0px 0px 3rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage__info {
+			grid-template-columns: 18.125rem 1fr;
+			gap: 1rem;
+		}
+	}
+
+	@media (max-width: 616px) {
+		.rootpage__info {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.rootpage__title {
+		line-height: 140%;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	.rootpage__title-customer {
+		line-height: 140%;
+		margin: 0px 0px 0.75rem 0px;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts {
+		border: 1px solid #fff;
+		padding: 0.4rem 0.8rem 0.5rem 1rem;
+		line-height: 180%;
+	}
+
+	.rootpage__contact {
+		display: flex;
+		align-items: center;
+	}
+
+	.rootpage__contact img {
+		margin-right: 10px;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage__contacts {
+			width: 17.2rem;
+		}
+	}
+
+	.rootpage__contacts {
+		/* background: #32b5a4; */
+	}
+
+	/* .rootpage__contacts a {
+			color: #ebe691;
+		} */
+	.footer {
+		z-index: 1;
+		line-height: 2;
+		text-align: center;
+		padding-bottom: 0.25rem;
+	}
+
+	.footer__copy-right {
+		border-top: 1px solid;
+	}
+</style>
+
+</html>
